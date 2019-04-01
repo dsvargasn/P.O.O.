@@ -5,7 +5,7 @@ package interfaz;
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
+import logica.CapturaTeclado;
 /**
  *
  * @author Estudiantes
@@ -13,7 +13,9 @@ package interfaz;
 public class Principal {
     
     public static void main(String[] args) {
-        System.out.println("Hola mundo");
+        System.out.println("Ejemplo de captura");
+        CapturaTeclado ct = new CapturaTeclado ();
+        ct.operacion();
     }
     
 }
